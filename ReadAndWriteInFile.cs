@@ -19,11 +19,11 @@ namespace FileIOPractice
         {
             string[] lines;
             lines = File.ReadAllLines(path);
-            foreach(string str in lines)
+            for (int i= 0; i < lines.Length; i++)
             {
-                Console.WriteLine(str);
+                Console.WriteLine(lines[i]);
             }
-            Console.WriteLine(lines[1]);
+            Console.WriteLine("\nPrinting a particular line\n" + lines[1]);
         }
         public static void readAllText()
         {

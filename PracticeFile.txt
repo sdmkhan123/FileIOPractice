@@ -1,4 +1,7 @@
 ﻿It is used to store a set of named constants such as season, days, month, size etc.
 enum has fixed set of constants
 enum improves type safety
-enum can be traversed
+enum can be traversedHi this is a newly appended text in file
+Hi this is a newly appended text in file
+
+Hi this is a newly appended text in file

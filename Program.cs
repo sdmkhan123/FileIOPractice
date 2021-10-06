@@ -19,8 +19,14 @@ namespace FileIOPractice
             Console.WriteLine("-------------------Welcome to Read All as Text (Single String)-------------------");
             ReadAndWriteInFile.readAllText();
             Console.WriteLine("\n*************************************************************************************\n");
-            Console.WriteLine("-------------------Welcome to Cpy file data-------------------");
+            Console.WriteLine("-------------------Welcome to Copy file data-------------------");
             ReadAndWriteInFile.copyFile();
+            Console.WriteLine("\n*************************************************************************************\n");
+            Console.WriteLine("-------------------Welcome to Stream reader-------------------");
+            StreamReaderStreamWriter.streamReader();
+            Console.WriteLine("\n*************************************************************************************\n");
+            Console.WriteLine("-------------------Welcome to Stream writer-------------------");
+            StreamReaderStreamWriter.sreamWriter();
             Console.WriteLine("\n*************************************************************************************\n");
         }
     }
