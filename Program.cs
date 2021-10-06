@@ -7,8 +7,21 @@ namespace FileIOPractice
         static void Main(string[] args)
         {
             Console.WriteLine("===============================================================================\n");
-            Console.WriteLine("Welcome to File IO practice problem");
+            Console.WriteLine("-------------------Welcome to File IO practice problem-------------------");
             Console.WriteLine("\n===============================================================================\n");
+            Console.WriteLine("\n*************************************************************************************\n");
+            Console.WriteLine("-------------------Welcome to check file exist or Not-------------------");
+            ReadAndWriteInFile.fileExist();
+            Console.WriteLine("\n*************************************************************************************\n");
+            Console.WriteLine("-------------------Welcome to Read All Line by Line(Array of String)-------------------");
+            ReadAndWriteInFile.readAllLine();
+            Console.WriteLine("\n*************************************************************************************\n");
+            Console.WriteLine("-------------------Welcome to Read All as Text (Single String)-------------------");
+            ReadAndWriteInFile.readAllText();
+            Console.WriteLine("\n*************************************************************************************\n");
+            Console.WriteLine("-------------------Welcome to Cpy file data-------------------");
+            ReadAndWriteInFile.copyFile();
+            Console.WriteLine("\n*************************************************************************************\n");
         }
     }
 }
