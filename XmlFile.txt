@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Contact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Saddam Khan</name>
+  <addr>Uttar Pradesh</addr>
+  <age>25</age>
+</Contact>
