@@ -36,6 +36,9 @@ namespace FileIOPractice
                 SerializationAndDeserialization.xmlSerialization();
                 SerializationAndDeserialization.xmlDeserialization();
                 Console.WriteLine("\n*************************************************************************************\n");
+                Console.WriteLine("-------------------Welcome to  CSV-ThirdParty Library-------------------");
+                CsvHandler.csvImplement();
+                Console.WriteLine("\n*************************************************************************************\n");
             }
             catch(Exception ex)
             {
